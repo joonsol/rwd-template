@@ -137,9 +137,10 @@ header .rel {
     color:#fff
 }
 .depth2_img{
-    background: url(../img/depth2_img.png) no-repeat left center/130%;
+    background: url(../img/depth2_img.png) no-repeat left center/110%;
     height: 41.7rem;
-    max-width: 58rem;
+    min-width: 32rem;
+    max-width: 46rem;
     margin:auto
 }
 
@@ -214,18 +215,17 @@ background: url(../img/depth3_img.png) no-repeat center top 3rem/90% auto;
 .dep4_list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top:5rem
+    justify-content: center;
+    margin-top:5rem;
+    gap:2rem
+
 }
 .dep4_list li{
-    width: calc(49vw - 3rem);
-    height: calc(21vw + 10rem);
+    width:calc(50% - 1rem) ;
+    min-height: 15rem;
+    max-width: 15rem;
 }
-.dep4_list li:nth-child(3),
-.dep4_list li:nth-child(4)
-{
-    margin-top:2rem
-}
+
 .dep4_list li a{
     display: flex;
     background-color: #E5D8FF;
@@ -273,9 +273,14 @@ background: url(../img/depth3_img.png) no-repeat center top 3rem/90% auto;
  max-width: 36rem;
  margin:8rem auto 0;
 }
-.dep5_img >img{
-    position: absolute;
-    transition: .3s;
+.dep5_img .deco1{
+    background-image: url(../img/depth5_deco1.png);
+}
+.dep5_img .deco2{
+    background-image: url(../img/depth5_deco2.png);
+}
+.dep5_img .deco3{
+    background-image: url(../img/depth5_deco3.png);
 }
 .dep5_desktop{
     width:100%;
