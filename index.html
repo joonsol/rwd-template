@@ -3,88 +3,99 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/media.css"> -->
-    <!-- <link rel="stylesheet" href="css/media2.css"> -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>RWD template</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon">
+    <meta name="description" content="반응형 웹 페이지 제작">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="최신 웹 기술 블로그">
+    <meta property="og:description" content="웹 개발 관련 최신 정보를 제공합니다.">
+    <meta property="og:image" content="https://joonsol.github.io/rwd-template/img/depth3_img.png">
+    <meta property="og:url" content="https://joonsol.github.io/rwd-template/">
+    <meta property="og:type" content="website">
+    <meta name="author" content="홍길동">
+    <meta name="copyright" content="© 2024 내 회사">
+    <!-- <meta http-equiv="refresh" content="5; url=https://example.com"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 </head>
 
 <body>
     <header>
+        <div class="fixedTop">top</div>
         <div class="rel">
-
-            <h1 class="headerTit shadow">logo</h1>
-            <input type="checkbox" class="headerBtn">
-            <ul class="subMenu">
-                <li><a href="#">menu1</a></li>
-                <li><a href="#">menu2</a></li>
-                <li><a href="#">menu3</a></li>
-                <li><a href="#">menu4</a></li>
+            <h1 class="t-shadow">
+                logo
+            </h1>
+            <a href="#" class="header-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <ul class="nav-list">
+                <li><a href="#" class="b-shadow">menu1</a></li>
+                <li><a href="#" class="b-shadow">menu2</a></li>
+                <li><a href="#" class="b-shadow">menu3</a></li>
+                <li><a href="#" class="b-shadow">menu4</a></li>
             </ul>
         </div>
     </header>
-    <section class="depth1">
+    <section class="dep1">
         <div class="rel">
             <div class="tit_wrap">
-                <h1 class="shadow"  data-aos="fade-up">responsive web
-                    <br>
-                    portfolio
-                </h1>
-                <p data-aos="fade-up"   data-aos-delay="50">
-                    Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. Quos, doloremque! Voluptatum ducimus,
-                </p data-aos="fade-up"   data-aos-delay="150">
-                <img class="scroll" src="img/depth1_icon.svg" alt="scroll" data-aos="fade-up"  >
-            </div>
-        </div>
-    </section>
-    <section class="depth2">
-        <div class="rel">
-            <div class="tit_wrap" data-aos="fade-up">
-
-                <h1>
-                    application
-                    <br>
-                    <span class="outline">design</span>
+                <h1 class="t-shadow">
+                    Liz.B’s UI/UX <br>
+                    DEsign
                 </h1>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Quos, doloremque! Voluptatum ducimus,
+                    Lorem, ipsum dolor sit amet consectetur <br>adipisicing elit. Rem, fugiat?
                 </p>
-                <a href="#" class="btn">
-                    <span>go to link</span>
-                    <img src="img/arrow_white.svg" alt="arrow">
+                <img src="./img/depth1_icon.svg" alt="ico" class="scroll_ico">
+            </div>
+        </div>
+    </section>
+    <section class="dep2">
+        <div class="rel">
+            <div class="tit_wrap">
+                <h1 data-aos="fade-up">
+                    application <br>
+                    <span class="outline">design</span>
+                </h1>
+                <p data-aos="fade-up" data-aos-delay="50">
+                    Lorem, ipsum dolor sit amet consectetur <br>adipisicing elit. Rem, fugiat?
+                </p>
+                <a href="#" class="btn " data-aos="fade-up" data-aos-delay="100">
+                    <span> go to link</span>
+                    <img src="./img/arrow_white.svg" alt="arrow">
                 </a>
             </div>
-            <div class="depth2_img" data-aos="zoom-in">
+            <div class="img_wrap" data-aos="fade-up">
 
             </div>
         </div>
     </section>
-    <section class="depth3">
+    <section class="dep3">
         <div class="rel">
             <div class="tit_wrap" data-aos="fade-up">
-
                 <h1>
                     profile
                 </h1>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
-                    Quos, doloremque! Voluptatum ducimus,
+                    Lorem, ipsum dolor sit amet consectetur <br>adipisicing elit. Rem, fugiat?
                 </p>
-                <a href="#" class="btn">
-                    <span>go to link</span>
-                    <img src="img/arrow_white.svg" alt="arrow">
+                <a href="#" class="btn ">
+                    <span> go to link</span>
+                    <img src="./img/arrow_white.svg" alt="arrow">
                 </a>
             </div>
-            <div class="depth3_img" data-aos="zoom-in">
+            <div class="img_wrap" data-aos="zoom-in">
 
             </div>
         </div>
     </section>
-    <section class="depth4">
+    <section class="dep4">
         <div class="rel">
             <div class="tit_wrap" data-aos="fade-up">
                 <h1>
@@ -93,53 +104,146 @@
                 </h1>
             </div>
             <ul class="dep4_list">
-                <li data-aos="zoom-in"><a href="#">graphic <br> works</a></li>
-                <li data-aos="zoom-in" data-aos-delay="50"><a href="#">graphic <br> works</a></li>
-                <li data-aos="zoom-in" data-aos-delay="100"><a href="#">graphic <br> works</a></li>
-                <li data-aos="zoom-in" data-aos-delay="150"><a href="#">graphic <br> works</a></li>
+                <li data-aos="zoom-in">
+                    <a href="#" class="b-shadow">
+                        graphic <br>
+                        artwork
+                    </a>
+                </li>
+                <li data-aos="zoom-in" data-aos-delay="50">
+                    <a href="#" class="b-shadow">
+                        graphic <br>
+                        artwork
+                    </a>
+                </li>
+                <li data-aos="zoom-in" data-aos-delay="100">
+                    <a href="#" class="b-shadow">
+                        graphic <br>
+                        artwork
+                    </a>
+                </li>
+                <li data-aos="zoom-in" data-aos-delay="150">
+                    <a href="#" class="b-shadow">
+                        graphic <br>
+                        artwork
+                    </a>
+                </li>
             </ul>
         </div>
     </section>
-    <section class="depth5">
+    <section class="dep5">
         <div class="rel">
             <div class="tit_wrap" data-aos="fade-up">
                 <h1>
-                    <span> responsive</span>
-
+                    responsive <br>
                     <span>web uiux design</span>
                 </h1>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    <br> Quos, doloremque! Voluptatum ducimus,
+                    Lorem, ipsum dolor sit amet consectetur <br>adipisicing elit. Rem, fugiat?
                 </p>
-                <a href="#" class="btn">
-                    <span>go to link</span>
-                    <img src="img/arrow_white.svg" alt="arrow">
+                <a href="#" class="btn ">
+                    <span> go to link</span>
+                    <img src="./img/arrow_white.svg" alt="arrow">
                 </a>
             </div>
-            <div class="dep5_img">
-                <div class="deco deco1" data-aos="zoom-in" ></div>
-                <div class="deco deco2" data-aos="zoom-in" data-aos-delay="100"></div>
-                <div class="deco deco3" data-aos="zoom-in" data-aos-delay="200"></div>
+            <div class="img_wrap">
+                <div class="deco deco1" data-aos="zoom-in"></div>
+                <div class="deco deco2" data-aos="zoom-in" data-aos-delay="50"></div>
+                <div class="deco deco3" data-aos="zoom-in" data-aos-delay="100"></div>
             </div>
+        </div>
+    </section>
+    <section class="dep6">
+        <div class="rel">
+            <div class="tit_wrap" data-aos="fade-up">
+                <h1>
+                    <span>graphic</span>
+                    <span>artwork-02</span>
+                </h1>
+            </div>
+            <div class="dep6-slide-wrap">
+                <!-- Swiper -->
+                <div class="swiper dep6-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <span>graphic artwork</span>
+                                <span class="num">01</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <span>graphic artwork</span>
+                                <span class="num">02</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <span>graphic artwork</span>
+                                <span class="num">03</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <span>graphic artwork</span>
+                                <span class="num">04</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <span>graphic artwork</span>
+                                <span class="num">05</span>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <span>graphic artwork</span>
+                                <span class="num">06</span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="btn-wrap">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     </section>
     <footer>
         <div class="rel">
-
             <h3>logo</h3>
-            <ul class="foot_list">
-                <li><a href="#"><img src="img/foot_icon1.svg" alt="icon"></a></li>
-                <li><a href="#"><img src="img/foot_icon2.svg" alt="icon"></a></li>
-                <li><a href="#"><img src="img/foot_icon3.svg" alt="icon"></a></li>
+            <ul class="foot-list">
+                <li>
+                    <a href="#">
+                        <img src="./img/foot_icon1.svg" alt="foot-icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/foot_icon2.svg" alt="foot-icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/foot_icon3.svg" alt="foot-icon">
+                    </a>
+                </li>
             </ul>
-            <p>copyright 2022 Liz.B All right reserved</p>
+            <p class="copy">
+                copyright 2022 Liz.B All right reserved
+            </p>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
